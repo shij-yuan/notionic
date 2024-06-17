@@ -4,6 +4,7 @@ import {useRouter} from 'next/router'
 import {useState} from 'react'
 import {ExternalLinkIcon} from '@heroicons/react/outline'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Loading({notionSlug}) {
     const {locale} = useRouter()
