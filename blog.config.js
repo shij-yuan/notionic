@@ -2,7 +2,7 @@ const BLOG = {
   title: 'Timber Hearth',
   author: 'Hearthian',
   email: 'shijiaa.yuan@gmail.com',
-  link: 'www.204901.xyz',
+  link: '',
   newsletter: 'Notionic Weekly',
   description: 'A blog',
   lang: 'en-US', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
@@ -16,7 +16,7 @@ const BLOG = {
   postsPerPage: 10,
   sortByDate: true,
   pagesShow: {
-    newsletter: true,
+    newsletter: false,
     notes: false,
     projects: false,
     contact: true,
@@ -42,8 +42,8 @@ const BLOG = {
   notionDomain: 'izuolan.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
-  telegramChannelUrl: '', // The link of your Telegram channel
-  telegramChannelName: '', // The name of your Telegram channel
+  telegramChannelUrl: 'https://channel.zuolan.me/', // The link of your Telegram channel
+  telegramChannelName: 'zuolan_me', // The name of your Telegram channel
   craftConfigShareUrl: 'https://www.craft.do/s/kQtcWqkv98cHhB', // The link to share your craft config
   analytics: {
     provider: '', // Currently we support Google Analytics, Ackee, Umami and Cloudflare Insights, please fill with 'ga' or 'ackee' or 'umami' or 'cf', leave it empty to disable it.
