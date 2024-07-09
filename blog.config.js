@@ -1,7 +1,7 @@
 const BLOG = {
   title: 'Timber Hearth',
   author: 'Hearthian',
-  email: 'shijiaa.yuan@gmail.com',
+  email: 'sherlockied@yahoo.com',
   link: 'www.204901.xyz',
   newsletter: 'Notionic Weekly',
   description: 'A blog',
@@ -39,7 +39,7 @@ const BLOG = {
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionSpacesId: process.env.NOTION_SPACES_ID, // DO NOT CHANGE THIS! Edit .env file!
   notionAccessToken: process.env.NOTION_ACCESS_TOKEN, // Useful if you prefer not to make your database public
-  notionDomain: 'izuolan.notion.site',
+  notionDomain: 'sherlockied.notion.site',
   telegramToken: process.env.TELEGRAM_TOKEN, // The token of your Telegram bot
   telegramChatId: '263895784', // The chat id of your Telegram bot
   telegramChannelUrl: '', // The link of your Telegram channel
