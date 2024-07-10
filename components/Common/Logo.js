@@ -33,11 +33,7 @@ const Logo = (props) => {
   </g>
 </svg>`,
         // Stranger Eye
-        `<svg
-   width="32%" height="32%" 
-   viewBox="0 0 203.52173 173.63389"
-   ><g
-     id="layer2"
+        `<svg width="32%" height="32%" viewBox="0 0 203.52173 173.63389"><g
      style="display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-opacity:1"
      transform="translate(-4.3904622,-11.215857)"><g
        id="layer3"
