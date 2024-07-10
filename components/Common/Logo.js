@@ -42,7 +42,7 @@ const Logo = (props) => {
 
     // 使用dangerouslySetInnerHTML来渲染SVG字符串
     return (
-        randomSvg
+        <div dangerouslySetInnerHTML={{__html: randomSvg}} />
     );
 }
 
