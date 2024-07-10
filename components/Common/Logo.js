@@ -1,5 +1,5 @@
 // https://react-svgr.com/playground/
-import * as React from 'react'
+import React, { useState, useEffect } from 'react';
 
 const Logo = (props) => {
     // 定义一个包含完整SVG格式的数组
@@ -348,8 +348,14 @@ const Logo = (props) => {
 
     ];
 
-    // 随机选择一个SVG
-    const randomSvg = svgs[Math.floor(Math.random() * svgs.length)];
+    // 使用useState来存储当前选中的SVG
+    const [currentSvg, setCurrentSvg] = useState('');
+
+    // 使用useEffect来确保只在组件首次渲染时设置SVG
+    useEffect(() => {
+        const randomSvg = svgs[Math.floor(Math.random() * svgs.length)];
+        setCurrentSvg(randomSvg);
+    }, []); // 空依赖数组[]表示这个effect只在首次渲染时运行
 
     // 使用dangerouslySetInnerHTML来渲染SVG字符串
     return (
