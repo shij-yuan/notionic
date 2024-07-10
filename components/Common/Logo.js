@@ -4,17 +4,17 @@ import * as React from 'react'
 const Logo = (props) => {
     // 定义一个包含图片文件路径的数组
     const images = [
-        'public/logo/1.png',
-        'public/logo/2.png',
-        'public/logo/3.png',
-        'public/logo/4.png',
-        'public/logo/5.png',
-        'public/logo/6.png',
-        'public/logo/7.png',
-        'public/logo/8.png',
-        'public/logo/9.png',
-        'public/logo/10.png',
-        'public/logo/11.png'
+        '/logo/1.png',
+        '/logo/2.png',
+        '/logo/3.png',
+        '/logo/4.png',
+        '/logo/5.png',
+        '/logo/6.png',
+        '/logo/7.png',
+        '/logo/8.png',
+        '/logo/9.png',
+        '/logo/10.png',
+        '/logo/11.png'
     ];
 
     // 随机选择一个图片路径
