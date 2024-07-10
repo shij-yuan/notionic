@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 const Logo = (props) => {
     // 定义一个包含完整SVG格式的数组
     const svgs = [
-        `<svg width="22%" height="22%" viewBox="0 0 193.85587 234.38969"
+        `<svg width="18%" height="18%" viewBox="0 0 193.85587 234.38969"
     xmlns="http://www.w3.org/2000/svg">
     <g transform="translate(-8.5886232,-36.149215)">
         <path style="fill:currentColor;stroke-width:2.065;stroke-dashoffset:2.31761" d="m 128.36828,250.29514 6.49254,17.73947 -4.08979,0.0511 -3.68081,-2.55612 -3.32295,-8.94641 -3.01622,5.31672 -2.14714,-3.98755 1.89152,-6.03243 z" />
